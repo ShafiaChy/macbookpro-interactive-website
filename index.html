@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook Pro</title>
+    <!-- Tailwind CSS Link Starts -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+     <!-- Tailwind CSS Link Ends -->
+
+</head>
+<body>
+    <main>
+        <section>
+            <div class="grid grid-flow-col grid-cols-2 grid-rows-1 gap-4">
+                  <div>
+                      <img class="w-2/4" src="images/mac.png" alt="macBook image">
+                  </div>
+                  <div>
+                    <div>
+                        <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7 core GPU and 16-core Neural Engine, 8GB unified memory, 256GB SSD storage, Two Thunderbolt/USB, 4 ports Magic Mouse, Magic Keyboard - US English.</p>
+                      </div>
+                      <div>
+                        <h6>Memory</h6>
+                        <button id="memory-8gb-btn" class="border-2 border-gray-400 rounded px-2 py-1">8GB unified memory</button>
+                        <button  class="border-2 border-gray-400 rounded px-2 py-1 ml-2" id="memory-16gb-btn">16GB unified memory</button>
+
+                        <h6>Storage</h6>
+                        <button id="storage-256gb-btn" class="border-2 border-gray-400 rounded px-2 py-1">256GB SSD Storage</button>
+                        <button id="storage-512gb-btn" class="border-2 border-gray-400 rounded px-2 py-1 ml-2">512GB SSD Storage</button>
+                        <button id="storage-1tb-btn" class="border-2 border-gray-400 rounded px-2 py-1 ml-2">1TB SSD Storage</button>
+
+                        <h6>Choose your delivery option</h6>
+                        <button id="free-delivery" class="border-2 border-gray-400 rounded px-2 py-1">Friday,Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-charge-20" class="border-2 border-gray-400 rounded px-2 py-1 ml-2">Friday,Aug 21 Delivery Charge $20</button>
+                      </div>
+                      <div class="w-2/4">
+                        <h6>Best Price <span>$<span>1299</span></span></h6>
+                        <hr>
+                        <h6>Extra Memory Cost $<span id="memory-cost">0</span></h6>
+                        <hr>
+                        <h6>Extra Storage Cost $<span id="storage-cost">0</span></h6>
+                        <hr>
+                        <h6>Delivery Charge $<span id="delivery-cost">0</span></h6>
+                        <hr>
+                        <h6>Total Price $<span id="total-price">1299</span></h6>
+                      </div>
+                      <div>
+                          <h6>Add promo code</h6>
+                          <input id="promo-code" type="text">
+                          <button id="apply-btn">Apply</button>
+                      </div>
+                  </div>     
+                  <hr>
+                  <h1 class="text-center">Total: $<span id="discount">1299</span></h1>
+            </div>
+           
+        </section>
+    </main>   
+    <script src="js/macBook.js"></script>
+</body>
+</html>
