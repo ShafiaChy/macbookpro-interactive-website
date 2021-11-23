@@ -1,4 +1,4 @@
-# Custom Macbook Pro.
+# Custom Macbook Pro
 
 
 My project link: [Custom Macbook Pro.](https://reverent-wilson-f73350.netlify.app/).
